@@ -1,0 +1,18 @@
+body {
+    background: #998;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, li {
+    color: #222
+}
+
+a{ 
+    color: aqua;
+}
+
+p {
+    background: #666;
+    color: #999;
+    padding: 1cm 0cm;
+}
