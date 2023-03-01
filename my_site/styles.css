@@ -1,39 +1,26 @@
 body {
-    background: #504646;
-    color: white;
+    background: #131313;
+    color: #e2e2e2;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background: black;
-    padding: 20px;
-}
-
-header .logo a{
-    background-image: url("images/lululemon_logo.png");
-    background-size: contain;
-    display: inline-block;
-    background-repeat: no-repeat;
-    text-indent: -99999px;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-
-header .nav a{
-    position: relative;
-    top: 40px;
-    font-size: larger;
-}
-
 section { 
-    color: grey;
-    background: white;
+    color: #e2e2e2;
     padding: 20px;
     display: flex;
     
+}
+
+h1 {
+    padding-left: 20px;
+    color: #e2e2e2;
+}
+
+h1.glance-green {
+    color: green;
+
 }
 
 footer {
@@ -41,24 +28,45 @@ footer {
     padding: 10px 20px;
 }
 div {
-    background: rgb(81, 255, 0);
-    padding: 10px 20px;
-    margin: auto;
-
+    
+    
 }
+
 ul {
     margin: 0;
     padding: 20px; 
     list-style-type: none;
     font-size: large;
-    color: white
+    color: white;
+
 }
 
 li {
-    display: inline-block;
-    margin-right: 20px;
-n
+    display: flex;
+    margin-left: 30px;
+    
 }
-h1 {
-    padding-left: 20px;
+
+topnav {
+    display: inline;
+
+
 }
+
+.nav-right {
+    float:right;
+    object-position: center;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.nav-home {
+    background-image: url(images/lululemon_logo.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    color: transparent;
+    margin-left: 0px;
+    display: inline;
+}
+
