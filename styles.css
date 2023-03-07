@@ -64,3 +64,11 @@ footer {
     background: black;
     padding: 10px 20px;
 }
+
+@media (max-width: 600px) {
+    h1.glance-green {
+        color: red;
+    }
+    
+
+}
