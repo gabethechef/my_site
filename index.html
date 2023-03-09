@@ -7,12 +7,22 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SG0X2C6DW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7SG0X2C6DW');
+        </script>
     </head>
 
     <body>
         <header>
             <nav>
-                <label class="logo">Gabriel Baek</label>
+                <label class="logo"><b>Gabriel Baek</b></label>
                 <ul class="topnav">
                     <li><a href="https://www.instagram.com/staplegabriel/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
                     <li><a href="https://twitter.com/ilovecats6922" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
@@ -23,41 +33,50 @@
             </nav>
         </header>
 
-        <h1 class="glance-green"> Welcome to my page!</h1>
-
         <section>
             <div class="content"> 
                 <h2>At a Glance:</h2>
-                    <li><b>Name:</b> Gabriel Baek</li>
+
                     <li><b>Age:</b> Turning 21</li>
                     <li><b>Languages:</b>&nbspEnglish, Chinese, Malay, Burmese</li>
-                    <li><b>Interests:</b>&nbspTechnology, Finance, Psychology </li>
+                    <li><b>Interests:</b>&nbspTechnology, Economics, Finance </li>
+                    <li><b>Email:</b>&nbsp lujx2002@gmail.com </li>
+                    <li><b>Last book I read:</b>&nbsp Pachinko </li>
             </div>
         </section>
         <section>
             <div class="content-display">
-            <h2>On Display:</h2>
-                <span>
+            <h2>Featured Projects:</h2>
+                <span class="content-box">
                     <h4><i>HDB Case Study</i></h4>
                     <img class="img-display" src="images/case_study_cover.png" alt="Case Study Image">
-                    <a href="HDB_Case_Study.html">Link</a>
+                    <p>- Exploring the 99 year lease with R <br><br>
+                       Utilized: &nbsp<ion-icon name="logo-html5"></ion-icon>
+                    </p>
+                    
+                    &nbsp <a href="HDB_Case_Study.html" target="_blank"><ion-icon name="document-outline"></ion-icon>Link</a>
                     
                 </span>
 
-                <span>
+                <span class="content-box">
                     <h4><i>BBDC Bot</i></h4>
-                    <img class="img-display" src="images/bbdc_bot.jpg" alt="Case Study Image">
+                    <img class="img-display" src="images/bbdc_bot.jpeg" alt="Case Study Image">
+                    <p>- Automated driving school slot poaching <br><br>
+                       Utilized: &nbsp<ion-icon name="logo-html5"></ion-icon>&nbsp<ion-icon name="logo-python"></ion-icon>
+                    </p>
+                    &nbsp <a href="https://github.com/gabethechef?tab=repositories" target="_blank"><ion-icon name="logo-github"></ion-icon>Link</a>
                 </span>
                 
-                <span>
-                    <h4><i>Investing</i></h4>
+                <span class="content-box">
+                    <h4><i>Copy my trades</i></h4>
                     <img class="img-display" src="http://prod-upp-image-read.ft.com/8b349314-3b8d-11e7-ac89-b01cc67cfeec">
-                    <a href="HDB_Case_Study.html">Link</a>
+                    &nbsp Work in Progress KIV
                     
                 </span>
             </div>
         </section>
-        <footer>Hosted on GitHub Pages</footer>
+        
+        <footer>Hosted on GitHub Pages done by Gabriel Lu Jia Xing <br> to do list: add google analytics/ </footer>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
