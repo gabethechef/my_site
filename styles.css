@@ -8,7 +8,7 @@ body {
 
 section { 
     color: black;
-    padding: 15px 0px 0px 15px;
+    padding: 25px 15px;
     display: flex;
     width: 100%;
 }
@@ -45,25 +45,39 @@ div.content-display span {
     display: inline-block;
     border: 2px solid black;
     margin: 5px;
-    border-radius: 10px;
-    height: 430px;
+    border-radius: 30px;
+    height: 450px;
     width: 300px;
     vertical-align: top;
 }
 
-.content-box > p {
-    padding-left: 10px;
+.content-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-box h4 {
+    text-align: center;
+}
+
+.content-box p {
+    text-align: left;
+    padding-left: 15px;
 }
 
 .img-display{
-    width: 300px;
+    padding-left: -10px;
+    width: 100%;
     height: 250px;
 }
 
-a.active,a:hover{
+a:hover{
     background: lightgray;
     transition: .3s;
 }
+
+
+
 
 label.logo{
     font-size: large;
