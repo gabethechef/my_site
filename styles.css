@@ -113,6 +113,14 @@ footer {
     border-top: 2px solid black;
 }
 
+table {
+    border: 1px solid;
+}
+
+td,th {
+    width: auto;
+    border-right: 30px;
+}
 
 
 @media (max-width: 450px) {
