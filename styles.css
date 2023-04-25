@@ -115,16 +115,30 @@ footer {
 
 table {
     border: 1px solid;
+    overflow-x:scroll;
+    table-layout:fixed;
 }
 
-td,th {
+td,th,tr {
     width: auto;
     border-right: 30px;
+    white-space: nowrap;
+
 }
+
+
 
 
 @media (max-width: 450px) {
     .topnav > li > a{
         padding: 7px 0px 7px 0px;
+
+    }
+
+    .td,th {
+        width: 900px;
+        border-right: 30px;
+
+
     }
 }
