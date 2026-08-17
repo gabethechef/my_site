@@ -1,4 +1,59 @@
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAS-ESS Essay 2024 | Gabriel Baek</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Gabriel<span>.</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">&larr; Back to Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="narrow-container">
+    <article>
+      <div class="article-header">
+        <span class="card-category">MAS-ESS Essay Competition 2024</span>
+        <h1>The Impact of Global Industrial Policies on Singapore's Economy</h1>
+        <div class="tag-list" style="margin-top: 1rem;">
+          <span class="tag">Author: Gabriel Lu</span>
+          <span class="tag">Focus: Macroeconomics & Trade</span>
+        </div>
+      </div>
+
+      <div class="article-content">
+        <div class="callout">
+          <strong>Executive Summary:</strong> As major economies pivot toward aggressive subsidies (e.g., the US CHIPS Act and EU Green Deal Industrial Plan), small open economies like Singapore face unique structural challenges requiring strategic supply-chain niche positioning.
+        </div>
+
+        <h2>1. Context & Global Landscape</h2>
+        <p>
+          Global trade is increasingly characterized by geoeconomic fragmentation and active state intervention. This paper examines how Singapore can maintain competitiveness amid shifting global manufacturing dynamics.
+        </p>
+
+        <h2>2. Key Findings & Policy Analysis</h2>
+        <p>
+          Insert your essay text and quantitative figures here. Use standard semantic paragraphs and lists for smooth reading.
+        </p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Gabriel Lu Jia Xing</p>
+  </footer>
+
+</body>
+</html>body {
     background: #fff;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
